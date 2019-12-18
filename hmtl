@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Adventures Insurance Homepage</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Adventures Insurance" />
+    <meta name="keywords" content="Adventures Insurance, Adventure, Insurance, Animals, Llama, Petting Zoo, Mission Statement, Our Mission, Carnivals, Zoos, Circuses, Amusement Parks, Fairs." />
+    <link href="css/style.css" rel="stylesheet" />
+    <!--Body by Miracle Whip -->
+</head>
+<body>
+    <section class="darkbackground">
+        <header>
+            <img class="logo" src="images/logo.png" alt="Adventures Insurance Logo" title="Adventures Insurance Logo"/>
+            <br />
+            <img class="logobackground" src="images/pettingzoo.png" alt="Adventures Insurance Logo Background" title="Adventures Insurance Logo Background" />
+            <br />
+            <!--Santa Claus is real-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Agents</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+    <!--LeBron is a crybaby-->
+    <section class="middle">
+        <div class="middlediv">
+            <article style="border-right:thin solid">
+                <h1>Adventures Insurance</h1>
+                <img src="images/specklessmall.png" alt="Speckles the Llama" title="Speckles the Llama"/>
+                <br />
+                <p>“Adventures Insurance is a unique insurance company specifically designed for carnivals, zoos, circuses, amusement parks and fairs. We serve a variety of coverages and options for our clients that range from Ringling Brothers to the South Carolina State Fair to the Poughkeepsie Petting Zoo in New York.”</p>
+            </article>
+            <article>
+                <h1>Our Mission</h1>
+                <p>“Adventures Insurance, located in the heart of sunny Los Angeles, California takes great pride in providing affordable coverages for entertainment groups of all sizes. Our clients are insured for rides, animals, food vendors, parties, special events, traveling amusement groups, public liability, premises, worker's compensation             and all coverage is affordable and transferrable.”</p>
+                <img src="images/lineofbusiness.png" alt="Lines of Business" title="Lines of Business" id="business" class="business"/>
+            </article>
+        </div>
+    </section>
+
+    <section class="darkbackground">
+        <footer>
+            <p class="below">
+                Copyright <script>document.write(new Date().getFullYear())</script> &#169;  Adventures Insurance
+            </p>
+            <img src="images/facebookgray.png" alt="Facebook" title="Facebook"/>
+        </footer>
+    </section>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
