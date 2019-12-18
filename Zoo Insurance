@@ -1,0 +1,36 @@
+var business = document.getElementById("business");
+
+var insurance = {
+    "business": [
+        {
+            "name": "General Liability",
+            "state": "South Carolina",
+            "discount": "20%"
+        },
+        {
+            "name": "Workers Compensation",
+            "state": "Georgia",
+            "discount": "15%"
+        },
+        {
+            "name": "Fire,Theft,Property",
+            "state": "Conneticut",
+            "discount": "8%"
+        },
+        {
+            "name": "Inland Marine",
+            "state": "Conneticut",
+            "discount": "12%"
+        }
+    ]
+}
+var text = document.getElementById("stateinfo");
+var button = document.getElementById("insurance");
+
+function businessdata() {
+    for (var i = 0; i < insurance.business.length; i++) {
+        var j = i + 1;
+        alert("Line of Business:" + insurance.business[i].name + "\n" + "State:" + insurance.business[i].state + "\n" + "Discount: " + insurance.business[i].discount + "\n" + insurance.business.length );
+    }
+}
+business.addEventListener("click", businessdata, false);
